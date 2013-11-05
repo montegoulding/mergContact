@@ -1,0 +1,25 @@
+//
+//  mergContact.lcidlc
+//  mergContact
+//
+//  Created by Monte Goulding on 4/11/13.
+//  Copyright 2013 __MyCompanyName__. All rights reserved.
+//
+
+// The name of the external (note external name must be all lowercase!)
+external mergContact
+
+// * header mergContact is an iOS external for accessing extra information from the address book that is not currently available using the LiveCode engine's buit in functions and commands.
+// * end
+
+use objc-objects
+
+enum imagetype-enum
+    "thumbnail" as 0
+    "original" as 2
+
+function mergContactImage // Get the image for a contact in the address book
+    in pContactID as integer // The contact ID as returned by mobileContactGet
+    optional in pImageType as imagetype-enum default "thumbnail" // The image type. The image returned is not a guaranteed size or quality, however, the thumbnail is cropped square. One of:
+    return objc-data // The image data
+    

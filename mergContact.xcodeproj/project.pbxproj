@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2E0382C182708A400075B5E /* mergContact.lcidl in Sources */ = {isa = PBXBuildFile; fileRef = B2E0382B182708A400075B5E /* mergContact.lcidl */; };
+		B2E0382E182708A400075B5E /* mergContact.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E0382D182708A400075B5E /* mergContact.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2E03827182708A400075B5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2E0381A182708A400075B5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2E03821182708A400075B5E;
+			remoteInfo = mergContact;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2E03822182708A400075B5E /* libmergContact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmergContact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2E03826182708A400075B5E /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2E0382A182708A400075B5E /* mergContact.ios */ = {isa = PBXFileReference; lastKnownFileType = text; path = mergContact.ios; sourceTree = "<group>"; };
+		B2E0382B182708A400075B5E /* mergContact.lcidl */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.livecode.idl; path = mergContact.lcidl; sourceTree = "<group>"; };
+		B2E0382D182708A400075B5E /* mergContact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mergContact.m; sourceTree = "<group>"; };
+		B2E0382F182708A400075B5E /* mergContact.livecode */ = {isa = PBXFileReference; lastKnownFileType = file; path = mergContact.livecode; sourceTree = "<group>"; };
+		B2E03830182708A400075B5E /* test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "test-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2E0381F182708A400075B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2E03819182708A400075B5E = {
+			isa = PBXGroup;
+			children = (
+				B2E03829182708A400075B5E /* mergContact */,
+				B2E03823182708A400075B5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2E03823182708A400075B5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2E03822182708A400075B5E /* libmergContact.a */,
+				B2E03826182708A400075B5E /* test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2E03829182708A400075B5E /* mergContact */ = {
+			isa = PBXGroup;
+			children = (
+				B2E0382A182708A400075B5E /* mergContact.ios */,
+				B2E0382B182708A400075B5E /* mergContact.lcidl */,
+				B2E0382D182708A400075B5E /* mergContact.m */,
+				B2E0382F182708A400075B5E /* mergContact.livecode */,
+				B2E03830182708A400075B5E /* test-Info.plist */,
+			);
+			path = mergContact;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2E03821182708A400075B5E /* mergContact */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2E03833182708A400075B5E /* Build configuration list for PBXNativeTarget "mergContact" */;
+			buildPhases = (
+				B2E0381E182708A400075B5E /* Sources */,
+				B2E0381F182708A400075B5E /* Frameworks */,
+				B2E03820182708A400075B5E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mergContact;
+			productName = mergContact;
+			productReference = B2E03822182708A400075B5E /* libmergContact.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B2E03825182708A400075B5E /* test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2E03836182708A400075B5E /* Build configuration list for PBXNativeTarget "test" */;
+			buildPhases = (
+				B2E03824182708A400075B5E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2E03828182708A400075B5E /* PBXTargetDependency */,
+			);
+			name = test;
+			productName = test;
+			productReference = B2E03826182708A400075B5E /* test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2E0381A182708A400075B5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = B2E0381D182708A400075B5E /* Build configuration list for PBXProject "mergContact" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2E03819182708A400075B5E;
+			productRefGroup = B2E03823182708A400075B5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2E03821182708A400075B5E /* mergContact */,
+				B2E03825182708A400075B5E /* test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B2E03820182708A400075B5E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "sh \"$LIVECODE_SDKROOT/tools/lclink.sh\"";
+		};
+		B2E03824182708A400075B5E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "sh \"$LIVECODE_SDKROOT/tools/lclinktest.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2E0381E182708A400075B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2E0382C182708A400075B5E /* mergContact.lcidl in Sources */,
+				B2E0382E182708A400075B5E /* mergContact.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2E03828182708A400075B5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2E03821182708A400075B5E /* mergContact */;
+			targetProxy = B2E03827182708A400075B5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B2E03831182708A400075B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "\"$(LIVECODE_SDKROOT)/headers\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIVECODE_SDKROOT = "$(USER_LIBRARY_DIR)/Application Support/RunRev/Components/LiveCodeSDK";
+				LIVECODE_TEST_EXTERNAL = mergContact;
+				LIVECODE_TEST_STACK = "$(SRCROOT)/mergContact/mergContact.livecode";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2E03832182708A400075B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				HEADER_SEARCH_PATHS = "\"$(LIVECODE_SDKROOT)/headers\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIVECODE_SDKROOT = "$(USER_LIBRARY_DIR)/Application Support/RunRev/Components/LiveCodeSDK";
+				LIVECODE_TEST_EXTERNAL = mergContact;
+				LIVECODE_TEST_STACK = "$(SRCROOT)/mergContact/mergContact.livecode";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B2E03834182708A400075B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				LIVECODE_DEP_FILE = "$(SRCROOT)/mergContact/mergContact.ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B2E03835182708A400075B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				LIVECODE_DEP_FILE = "$(SRCROOT)/mergContact/mergContact.ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B2E03837182708A400075B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "$(SRCROOT)/mergContact/test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B2E03838182708A400075B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "$(SRCROOT)/mergContact/test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2E0381D182708A400075B5E /* Build configuration list for PBXProject "mergContact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2E03831182708A400075B5E /* Debug */,
+				B2E03832182708A400075B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2E03833182708A400075B5E /* Build configuration list for PBXNativeTarget "mergContact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2E03834182708A400075B5E /* Debug */,
+				B2E03835182708A400075B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2E03836182708A400075B5E /* Build configuration list for PBXNativeTarget "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2E03837182708A400075B5E /* Debug */,
+				B2E03838182708A400075B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2E0381A182708A400075B5E /* Project object */;
+}
