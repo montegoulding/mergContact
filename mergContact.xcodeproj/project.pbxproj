@@ -22,6 +22,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B2895C641BE8BCD40009CC81 /* Global.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Global.xcconfig; path = ../Global.xcconfig; sourceTree = "<group>"; };
 		B2E03822182708A400075B5E /* libmergContact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmergContact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2E03826182708A400075B5E /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2E0382A182708A400075B5E /* mergContact.ios */ = {isa = PBXFileReference; lastKnownFileType = text; path = mergContact.ios; sourceTree = "<group>"; };
@@ -45,6 +46,7 @@
 		B2E03819182708A400075B5E = {
 			isa = PBXGroup;
 			children = (
+				B2895C641BE8BCD40009CC81 /* Global.xcconfig */,
 				B2E03829182708A400075B5E /* mergContact */,
 				B2E03823182708A400075B5E /* Products */,
 			);
@@ -185,11 +187,11 @@
 /* Begin XCBuildConfiguration section */
 		B2E03831182708A400075B5E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2895C641BE8BCD40009CC81 /* Global.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_OPTIMIZATION_LEVEL = 0;
 				HEADER_SEARCH_PATHS = "\"$(LIVECODE_SDKROOT)/headers\"";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIVECODE_SDKROOT = "$(USER_LIBRARY_DIR)/Application Support/RunRev/Components/LiveCodeSDK";
 				LIVECODE_TEST_EXTERNAL = mergContact;
 				LIVECODE_TEST_STACK = "$(SRCROOT)/mergContact/mergContact.livecode";
@@ -200,10 +202,10 @@
 		};
 		B2E03832182708A400075B5E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2895C641BE8BCD40009CC81 /* Global.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				HEADER_SEARCH_PATHS = "\"$(LIVECODE_SDKROOT)/headers\"";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIVECODE_SDKROOT = "$(USER_LIBRARY_DIR)/Application Support/RunRev/Components/LiveCodeSDK";
 				LIVECODE_TEST_EXTERNAL = mergContact;
 				LIVECODE_TEST_STACK = "$(SRCROOT)/mergContact/mergContact.livecode";
@@ -265,6 +267,7 @@
 				B2E03835182708A400075B5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2E03836182708A400075B5E /* Build configuration list for PBXNativeTarget "test" */ = {
 			isa = XCConfigurationList;
@@ -273,6 +276,7 @@
 				B2E03838182708A400075B5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
