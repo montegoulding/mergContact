@@ -9,7 +9,8 @@
 // The name of the external (note external name must be all lowercase!)
 external mergContact
 
-// * header mergContact is an iOS external for accessing extra information from the address book that is not currently available using the LiveCode engine's buit in functions and commands.
+// * header
+mergContact is an iOS external for accessing extra information from the address book that is not currently available using the LiveCode engine's buit in functions and commands.
 // * end
 
 use objc-objects
