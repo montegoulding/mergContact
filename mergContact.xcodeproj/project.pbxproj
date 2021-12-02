@@ -3,13 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		B2E0382C182708A400075B5E /* mergContact.lcidl in Sources */ = {isa = PBXBuildFile; fileRef = B2E0382B182708A400075B5E /* mergContact.lcidl */; };
 		B2E0382E182708A400075B5E /* mergContact.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E0382D182708A400075B5E /* mergContact.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		B2CBE5CE27584A76003A9918 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.lcidl";
+			fileType = pattern.proxy;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+				"${DERIVED_FILES_DIR}/${INPUT_FILE_BASE}.lcidl.mm",
+			);
+			runOncePerArchitecture = 0;
+			script = "\"${HOME}/Library/Application Support/RunRev/Components/LiveCodeSDK/tools/lcidlc\" \"${INPUT_FILE_PATH}\" \"${DERIVED_FILES_DIR}/${INPUT_FILE_BASE}.lcidl.mm\"\n";
+		};
+/* End PBXBuildRule section */
 
 /* Begin PBXContainerItemProxy section */
 		B2E03827182708A400075B5E /* PBXContainerItemProxy */ = {
@@ -85,6 +102,7 @@
 				B2E03820182708A400075B5E /* ShellScript */,
 			);
 			buildRules = (
+				B2CBE5CE27584A76003A9918 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -122,6 +140,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = B2E03819182708A400075B5E;
